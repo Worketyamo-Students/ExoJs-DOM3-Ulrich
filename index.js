@@ -4,19 +4,17 @@ let body = document.body
 
 //I-1
 
-// let ul1 = document.createElement('ul')
-// body.prepend(ul1)
+// let ul1 = document.getElementById('ul1')
+// let li = document.querySelectorAll(".li")
+// for(let i=0; i< li.length; i++){
+    
+//     li[i].innerText = i
 
-// for(let i=0; i<=4; i++){
-//     let li = document.createElement('li')
-//     ul1.appendChild(li)
-//     li.innerText = i
+    // I-4
 
-//     //I-4
-
-//     if(i%2 == 0){
-//         ul1.removeChild(li)
-//     }
+    // if(i%2 == 0){
+    //     ul1.removeChild(li[i])
+    // }
 // }
 
 //I-2
@@ -47,6 +45,7 @@ let body = document.body
 
 //PARTIE II: Relations Parents/Enfants
 
+
 // II-1
 
 // for(let i=0; i<5; i++){
@@ -57,8 +56,15 @@ let body = document.body
 //     p.innerText = 'Enfant ajouté'
 // }
 
+
 //II-2
-//cf dernier devoir
+
+// let ul1 = document.getElementById('ul1')
+// let li = document.querySelectorAll(".li")
+// for(i=0; i<li.length; i++){
+//     ul1.removeChild(li[i])
+// }
+
 
 //II-3
 
