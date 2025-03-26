@@ -29,6 +29,7 @@ let body = document.body
 
 // let td = document.querySelectorAll('td')
 // for(let i=0; i<td.length; i++){
+//     td[i].style.width = "100px"; td[i].style.height = "50px"; td[i].style.textAlign = 'center'
 //     td[i].style.background =  '#'+(Math.random()*0xFFFFFF<<0).toString(16)
 // }
 
